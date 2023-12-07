@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 600px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/111.jpg);
+    background-size: cover;
+}
+.header_nav div > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: .5s all;
+}
+.header_nav div > a:hover{
+    color:orange;
+    text-shadow: rgba(0, 0, 255, 0.325) 1px 1px 10px;
+    transition: .5s all;
+}
+
+.header_nav{
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: end;
+
+}
+.nnav{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.main{
+    height: 500px;
+    background-color: rgb(246, 246, 7);
+}
+
